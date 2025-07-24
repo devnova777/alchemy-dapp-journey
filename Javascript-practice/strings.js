@@ -9,3 +9,15 @@ function startsWithX(string) {
     }
     
 }
+
+//update our startsWithX function to return true for an upper-case X as well as a lower-case x.Using .toLoweCase() function.
+
+function startsWithX(string) {
+    if(string[0].toLowerCase()==="x"){
+        return true;
+    }
+    else{
+        return false;
+    }
+    
+} 
