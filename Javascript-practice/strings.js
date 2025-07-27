@@ -10,6 +10,8 @@ function startsWithX(string) {
     
 }
 
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 //update our startsWithX function to return true for an upper-case X as well as a lower-case x.Using .toLoweCase() function.
 
 function startsWithX(string) {
@@ -22,9 +24,11 @@ function startsWithX(string) {
     
 } 
 
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 /*the endsWithX function by detecting if the last character in the string is a lower-case x or an upper-case X. Return true if the last
 character is either lower-case x or upper-case X, false otherwise.*/
+
 function endsWithX(string) {
     if(string[string.length - 1].toLowerCase() === "x") {
         return true;
@@ -34,3 +38,27 @@ function endsWithX(string) {
 console.log(endsWithX("Hellx"))
 
 module.exports = endsWithX;
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+/* The function isAllX to determine if the entire string is made of lower-case x, upper-case X, or a mix of both.
+Return true if they are, false if not.*/
+
+
+function isAllX(string) {
+    for(let i = 0; i<string.length; i++){
+        if(string[i].toUpperCase()!== "X"){
+            return false;
+        }
+       
+    }
+    return true;
+ 
+    
+
+}
+
+module.exports = isAllX;
+
+// ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
