@@ -19,5 +19,6 @@ Goal: Become a full-stack dApp developer (JS + Solidity + Ethereum Bootcamp)
 - Reached: **String Manipulation module**
 - Learned about `.slice()`, `.toUpperCase()`, `.toLowerCase()`, `.trim()`
 - Noted how useful these can be for formatting addresses, logs, etc.
+- tried solving a real tricky function of strings, got it wrong but still learned.
 
 > Next: Arrays & Objects Deep Dive
