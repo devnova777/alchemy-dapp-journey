@@ -23,5 +23,21 @@ console.log( sum([1, 1, 4, 1, 1]) ); // 4
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------
 
+//Write a function that will take an array of numbers and return a new array that only contains unique numbers.
+
+function unique(array) {
+    const newArr = [];
+    for(let i = 0; i<array.length; i++){
+        const element = array[i];
+        if(newArr.indexOf(element)=== -1){
+            newArr.push(element);
+        }
+    }
+    return newArr;
+   
+}
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
