@@ -24,5 +24,5 @@ Goal: Become a full-stack dApp developer (JS + Solidity + Ethereum Bootcamp)
 ### ✅ Day 6 - 7 [CURRENT]
 - Reached: **Array module**
 - learned how to traverse/loop through content in an array
-- 
+- learned how to use (`.push()` & `indexOf()`) in a Array to find & check its contents. 
 
